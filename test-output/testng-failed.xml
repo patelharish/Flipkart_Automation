@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowserTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Ecommerce_Automation.Shopping_app.FlipkartTest">
+        <methods>
+          <include name="removeItemFromCart"/>
+          <include name="tearDown"/>
+          <include name="sortItemsLowToHigh"/>
+          <include name="setUp"/>
+          <include name="verifyItemInCart"/>
+          <include name="verifyItemPrice"/>
+        </methods>
+      </class> <!-- Ecommerce_Automation.Shopping_app.FlipkartTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTestSuite] -->
