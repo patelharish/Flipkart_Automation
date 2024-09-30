@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="10" failed="10" skipped="0">
+<testng-results ignored="2" total="20" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-27T00:41:56 IST" name="CrossBrowserTestSuite" finished-at="2024-09-27T00:42:37 IST" duration-ms="40367">
+  <suite started-at="2024-09-30T09:20:09 IST" name="CrossBrowserTestSuite" finished-at="2024-09-30T09:21:09 IST" duration-ms="59842">
     <groups>
     </groups>
-    <test started-at="2024-09-27T00:41:56 IST" name="ChromeTest" finished-at="2024-09-27T00:42:15 IST" duration-ms="18798">
+    <test started-at="2024-09-30T09:20:09 IST" name="ChromeTest" finished-at="2024-09-30T09:20:40 IST" duration-ms="30559">
       <class name="Ecommerce_Automation.Shopping_app.FlipkartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:41:56 IST" name="setUp" finished-at="2024-09-27T00:42:00 IST" duration-ms="3599" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:09 IST" name="setUp" finished-at="2024-09-30T09:20:13 IST" duration-ms="3592" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,246 +18,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="applyStarRatingFilter()[pri:4, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:00 IST" name="applyStarRatingFilter" finished-at="2024-09-27T00:42:04 IST" duration-ms="4549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applyStarRatingFilter -->
-        <test-method signature="applyPriceFilter()[pri:3, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:00 IST" name="applyPriceFilter" finished-at="2024-09-27T00:42:09 IST" duration-ms="8927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applyPriceFilter -->
-        <test-method signature="searchForProduct()[pri:2, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:00 IST" name="searchForProduct" finished-at="2024-09-27T00:42:03 IST" duration-ms="3017" status="PASS">
+        <test-method signature="searchForProduct()[pri:2, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:13 IST" name="searchForProduct" finished-at="2024-09-30T09:20:16 IST" duration-ms="3145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForProduct -->
-        <test-method signature="selectFifthItem()[pri:6, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:00 IST" name="selectFifthItem" finished-at="2024-09-27T00:42:04 IST" duration-ms="4447" status="PASS">
+        <test-method signature="applyPriceFilter()[pri:3, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:16 IST" name="applyPriceFilter" finished-at="2024-09-30T09:20:25 IST" duration-ms="8422" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectFifthItem -->
-        <test-method signature="sortItemsLowToHigh()[pri:5, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:00 IST" name="sortItemsLowToHigh" finished-at="2024-09-27T00:42:04 IST" duration-ms="4291" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <div class="zg-M3Z">...</div> is not clickable at point (604, 17). Other element would receive the click: <input class="zDPmFV" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value="bluetooth speakers">
-  (Session info: chrome=129.0.6668.70)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4105ce9a691c47ad431ce8e9ab9b62dd, clickElement {id=f.4510F1B9F9B3D515D970604C40B63961.d.CCDF3C01DD60D535F4A72F7C999A5FF7.e.7269}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4105ce9a691c47ad431ce8e9ab9b62dd)] -> xpath: (//div[normalize-space()='Price -- Low to High'])[1]]
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="zg-M3Z">...</div> is not clickable at point (604, 17). Other element would receive the click: <input class="zDPmFV" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value="bluetooth speakers">
-  (Session info: chrome=129.0.6668.70)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4105ce9a691c47ad431ce8e9ab9b62dd, clickElement {id=f.4510F1B9F9B3D515D970604C40B63961.d.CCDF3C01DD60D535F4A72F7C999A5FF7.e.7269}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4105ce9a691c47ad431ce8e9ab9b62dd)] -> xpath: (//div[normalize-space()='Price -- Low to High'])[1]]
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.sortItemsLowToHigh(FlipkartTest.java:105)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        </test-method> <!-- applyPriceFilter -->
+        <test-method signature="applyStarRatingFilter()[pri:4, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:25 IST" name="applyStarRatingFilter" finished-at="2024-09-30T09:20:28 IST" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyStarRatingFilter -->
+        <test-method signature="sortItemsLowToHigh()[pri:5, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:28 IST" name="sortItemsLowToHigh" finished-at="2024-09-30T09:20:31 IST" duration-ms="3137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortItemsLowToHigh -->
-        <test-method signature="switchToNewTabAndAddToCart()[pri:7, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:03 IST" name="switchToNewTabAndAddToCart" finished-at="2024-09-27T00:42:13 IST" duration-ms="10336" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[normalize-space()='Add to cart'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[normalize-space()='Add to cart'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.switchToNewTabAndAddToCart(FlipkartTest.java:137)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="selectFifthItem()[pri:6, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:31 IST" name="selectFifthItem" finished-at="2024-09-30T09:20:34 IST" duration-ms="3160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFifthItem -->
+        <test-method signature="switchToNewTabAndAddToCart()[pri:7, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:34 IST" name="switchToNewTabAndAddToCart" finished-at="2024-09-30T09:20:36 IST" duration-ms="2079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchToNewTabAndAddToCart -->
-        <test-method signature="verifyItemInCart()[pri:8, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:04 IST" name="verifyItemInCart" finished-at="2024-09-27T00:42:15 IST" duration-ms="10486" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Price (1 item)')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Price (1 item)')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.verifyItemInCart(FlipkartTest.java:145)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verifyItemInCart()[pri:8, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:36 IST" name="verifyItemInCart" finished-at="2024-09-30T09:20:39 IST" duration-ms="3293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemInCart -->
-        <test-method signature="verifyItemPrice()[pri:9, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:04 IST" name="verifyItemPrice" finished-at="2024-09-27T00:42:15 IST" duration-ms="10412" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//span[contains(text(),'₹3,096')])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//span[contains(text(),'₹3,096')])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.verifyItemPrice(FlipkartTest.java:155)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemPrice -->
-        <test-method signature="removeItemFromCart()[pri:10, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:04 IST" name="removeItemFromCart" finished-at="2024-09-27T00:42:15 IST" duration-ms="10283" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//div[normalize-space()='Remove'])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//div[normalize-space()='Remove'])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\patel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50653/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4105ce9a691c47ad431ce8e9ab9b62dd
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.removeItemFromCart(FlipkartTest.java:165)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="removeItemFromCart()[pri:10, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:39 IST" name="removeItemFromCart" finished-at="2024-09-30T09:20:40 IST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemFromCart -->
-        <test-method signature="switchBackToParentTab()[pri:11, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:09 IST" name="switchBackToParentTab" finished-at="2024-09-27T00:42:09 IST" duration-ms="52" status="PASS">
+        <test-method signature="switchBackToParentTab()[pri:11, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:40 IST" name="switchBackToParentTab" finished-at="2024-09-30T09:20:40 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchBackToParentTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@6aba2b86]" started-at="2024-09-27T00:42:15 IST" name="tearDown" finished-at="2024-09-27T00:42:15 IST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@52e6fdee]" started-at="2024-09-30T09:20:40 IST" name="tearDown" finished-at="2024-09-30T09:20:40 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Ecommerce_Automation.Shopping_app.FlipkartTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-09-27T00:42:15 IST" name="EdgeTest" finished-at="2024-09-27T00:42:37 IST" duration-ms="21466">
+    <test started-at="2024-09-30T09:20:40 IST" name="EdgeTest" finished-at="2024-09-30T09:21:09 IST" duration-ms="29253">
       <class name="Ecommerce_Automation.Shopping_app.FlipkartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:15 IST" name="setUp" finished-at="2024-09-27T00:42:20 IST" duration-ms="4861" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:20:40 IST" name="setUp" finished-at="2024-09-30T09:20:43 IST" duration-ms="3490" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,238 +73,43 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="applyPriceFilter()[pri:3, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:20 IST" name="applyPriceFilter" finished-at="2024-09-27T00:42:29 IST" duration-ms="9270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applyPriceFilter -->
-        <test-method signature="selectFifthItem()[pri:6, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:20 IST" name="selectFifthItem" finished-at="2024-09-27T00:42:25 IST" duration-ms="4760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFifthItem -->
-        <test-method signature="sortItemsLowToHigh()[pri:5, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:20 IST" name="sortItemsLowToHigh" finished-at="2024-09-27T00:42:24 IST" duration-ms="4497" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <div class="zg-M3Z">...</div> is not clickable at point (604, 17). Other element would receive the click: <input class="zDPmFV" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value="bluetooth speakers">
-  (Session info: MicrosoftEdge=129.0.2792.52)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e5fc8a690a2a76b243e90dd3b82280cc, clickElement {id=f.95FCE487BB8A6F3DFC0A14F24C08154B.d.9594C52538C71463E7742CDF0468B8C4.e.7170}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (e5fc8a690a2a76b243e90dd3b82280cc)] -> xpath: (//div[normalize-space()='Price -- Low to High'])[1]]
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="zg-M3Z">...</div> is not clickable at point (604, 17). Other element would receive the click: <input class="zDPmFV" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value="bluetooth speakers">
-  (Session info: MicrosoftEdge=129.0.2792.52)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e5fc8a690a2a76b243e90dd3b82280cc, clickElement {id=f.95FCE487BB8A6F3DFC0A14F24C08154B.d.9594C52538C71463E7742CDF0468B8C4.e.7170}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (e5fc8a690a2a76b243e90dd3b82280cc)] -> xpath: (//div[normalize-space()='Price -- Low to High'])[1]]
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.sortItemsLowToHigh(FlipkartTest.java:105)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortItemsLowToHigh -->
-        <test-method signature="searchForProduct()[pri:2, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:20 IST" name="searchForProduct" finished-at="2024-09-27T00:42:23 IST" duration-ms="3246" status="PASS">
+        <test-method signature="searchForProduct()[pri:2, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:20:43 IST" name="searchForProduct" finished-at="2024-09-30T09:20:47 IST" duration-ms="3324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForProduct -->
-        <test-method signature="applyStarRatingFilter()[pri:4, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:20 IST" name="applyStarRatingFilter" finished-at="2024-09-27T00:42:25 IST" duration-ms="4880" status="PASS">
+        <test-method signature="applyPriceFilter()[pri:3, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:20:47 IST" name="applyPriceFilter" finished-at="2024-09-30T09:20:55 IST" duration-ms="8516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyPriceFilter -->
+        <test-method signature="applyStarRatingFilter()[pri:4, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:20:55 IST" name="applyStarRatingFilter" finished-at="2024-09-30T09:20:58 IST" duration-ms="3140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyStarRatingFilter -->
-        <test-method signature="switchToNewTabAndAddToCart()[pri:7, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:23 IST" name="switchToNewTabAndAddToCart" finished-at="2024-09-27T00:42:34 IST" duration-ms="10474" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[normalize-space()='Add to cart'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[normalize-space()='Add to cart'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.switchToNewTabAndAddToCart(FlipkartTest.java:137)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="sortItemsLowToHigh()[pri:5, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:20:58 IST" name="sortItemsLowToHigh" finished-at="2024-09-30T09:21:02 IST" duration-ms="3141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortItemsLowToHigh -->
+        <test-method signature="selectFifthItem()[pri:6, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:21:02 IST" name="selectFifthItem" finished-at="2024-09-30T09:21:05 IST" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFifthItem -->
+        <test-method signature="switchToNewTabAndAddToCart()[pri:7, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:21:05 IST" name="switchToNewTabAndAddToCart" finished-at="2024-09-30T09:21:06 IST" duration-ms="1660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchToNewTabAndAddToCart -->
-        <test-method signature="verifyItemInCart()[pri:8, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:24 IST" name="verifyItemInCart" finished-at="2024-09-27T00:42:35 IST" duration-ms="10281" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Price (1 item)')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Price (1 item)')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.verifyItemInCart(FlipkartTest.java:145)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verifyItemInCart()[pri:8, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:21:06 IST" name="verifyItemInCart" finished-at="2024-09-30T09:21:08 IST" duration-ms="1108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemInCart -->
-        <test-method signature="verifyItemPrice()[pri:9, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:25 IST" name="verifyItemPrice" finished-at="2024-09-27T00:42:35 IST" duration-ms="10034" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//span[contains(text(),'₹3,096')])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//span[contains(text(),'₹3,096')])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.verifyItemPrice(FlipkartTest.java:155)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemPrice -->
-        <test-method signature="removeItemFromCart()[pri:10, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:25 IST" name="removeItemFromCart" finished-at="2024-09-27T00:42:35 IST" duration-ms="10446" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//div[normalize-space()='Remove'])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//div[normalize-space()='Remove'])[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50724}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\patel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50724/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5fc8a690a2a76b243e90dd3b82280cc
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Ecommerce_Automation.Shopping_app.FlipkartTest.removeItemFromCart(FlipkartTest.java:165)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="removeItemFromCart()[pri:10, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:21:08 IST" name="removeItemFromCart" finished-at="2024-09-30T09:21:08 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemFromCart -->
-        <test-method signature="switchBackToParentTab()[pri:11, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:29 IST" name="switchBackToParentTab" finished-at="2024-09-27T00:42:29 IST" duration-ms="102" status="PASS">
+        <test-method signature="switchBackToParentTab()[pri:11, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:21:08 IST" name="switchBackToParentTab" finished-at="2024-09-30T09:21:08 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchBackToParentTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@49ec71f8]" started-at="2024-09-27T00:42:35 IST" name="tearDown" finished-at="2024-09-27T00:42:37 IST" duration-ms="1270" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce_Automation.Shopping_app.FlipkartTest@595b007d]" started-at="2024-09-30T09:21:08 IST" name="tearDown" finished-at="2024-09-30T09:21:09 IST" duration-ms="1303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
