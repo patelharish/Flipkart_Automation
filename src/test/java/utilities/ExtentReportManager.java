@@ -3,6 +3,7 @@ package utilities;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -48,7 +49,7 @@ public class ExtentReportManager implements ITestListener {
 	    	logger.log(Status.PASS, "Test case PASSED: " + result.getName());
 	    }
 
-	    /*@Override
+	    @Override
 	    public void onTestFailure(ITestResult result) {
 	    	logger = extent.createTest(result.getName());  // Create a new test entry
 	    	logger.log(Status.FAIL, "Test case FAILED: " + result.getName());
@@ -68,7 +69,7 @@ public class ExtentReportManager implements ITestListener {
 	        } else {
 	            logger.log(Status.FAIL, "Driver was null, could not capture screenshot.");
 	        }
-	    }*/
+	    }
 
 	    @Override
 	    public void onTestSkipped(ITestResult result) {
