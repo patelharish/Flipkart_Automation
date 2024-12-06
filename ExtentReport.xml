@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="CrossBrowserTestSuite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
 	<test name="ChromeTest">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -16,10 +19,4 @@
 	</test>
 </suite>
 
-<!--<suite name="Suite">
-  <test thread-count="5" name="Regression">
-    <classes>
-      <class name="Ecommerce_Automation.Shopping_app.FlipkartTest"/>
-    </classes>
-  </test> 
-</suite>--> 
+

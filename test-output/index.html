@@ -347,6 +347,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;CrossBrowserTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -403,80 +406,80 @@ data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'applyPriceFilter')
 data.setCell(0, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(0, 3, 8564);
+data.setCell(0, 3, 8588);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'applyPriceFilter')
 data.setCell(1, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(1, 3, 8362);
+data.setCell(1, 3, 8322);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyItemInCart')
+data.setCell(2, 1, 'selectFifthItem')
 data.setCell(2, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(2, 3, 6905);
+data.setCell(2, 3, 3410);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'selectFifthItem')
+data.setCell(3, 1, 'applyStarRatingFilter')
 data.setCell(3, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(3, 3, 3474);
+data.setCell(3, 3, 3332);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'applyStarRatingFilter')
+data.setCell(4, 1, 'sortItemsLowToHigh')
 data.setCell(4, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(4, 3, 3391);
+data.setCell(4, 3, 3309);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'switchToNewTabAndAddToCart')
+data.setCell(5, 1, 'selectFifthItem')
 data.setCell(5, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(5, 3, 3381);
+data.setCell(5, 3, 3225);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'applyStarRatingFilter')
 data.setCell(6, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(6, 3, 3253);
+data.setCell(6, 3, 3179);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'selectFifthItem')
+data.setCell(7, 1, 'sortItemsLowToHigh')
 data.setCell(7, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(7, 3, 3226);
+data.setCell(7, 3, 3176);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'searchForProduct')
 data.setCell(8, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(8, 3, 3052);
+data.setCell(8, 3, 2868);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'searchForProduct')
+data.setCell(9, 1, 'switchToNewTabAndAddToCart')
 data.setCell(9, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(9, 3, 2532);
+data.setCell(9, 3, 2813);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'switchToNewTabAndAddToCart')
+data.setCell(10, 1, 'searchForProduct')
 data.setCell(10, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(10, 3, 2431);
+data.setCell(10, 3, 2638);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'sortItemsLowToHigh')
+data.setCell(11, 1, 'switchToNewTabAndAddToCart')
 data.setCell(11, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(11, 3, 975);
+data.setCell(11, 3, 1654);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'sortItemsLowToHigh')
+data.setCell(12, 1, 'removeItemFromCart')
 data.setCell(12, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(12, 3, 688);
+data.setCell(12, 3, 667);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'verifyItemInCart')
 data.setCell(13, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(13, 3, 580);
+data.setCell(13, 3, 579);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'removeItemFromCart')
+data.setCell(14, 1, 'verifyItemInCart')
 data.setCell(14, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(14, 3, 226);
+data.setCell(14, 3, 569);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'removeItemFromCart')
 data.setCell(15, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(15, 3, 184);
+data.setCell(15, 3, 231);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'switchBackToParentTab')
 data.setCell(16, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(16, 3, 17);
+data.setCell(16, 3, 15);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'switchBackToParentTab')
 data.setCell(17, 2, 'Ecommerce_Automation.Shopping_app.FlipkartTest')
-data.setCell(17, 3, 5);
+data.setCell(17, 3, 10);
 window.suiteTableData['CrossBrowserTestSuite']= { tableData: data, tableDiv: 'times-div-CrossBrowserTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-CrossBrowserTestSuite">
               </div> <!-- times-div-CrossBrowserTestSuite -->
             </div> <!-- times-div -->
@@ -518,87 +521,87 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">searchForProduct</span>
-                <span class="method-start">3787 ms</span>
+                <span class="method-start">4085 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">applyPriceFilter</span>
-                <span class="method-start">6324 ms</span>
+                <span class="method-start">6964 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">applyStarRatingFilter</span>
-                <span class="method-start">14690 ms</span>
+                <span class="method-start">15555 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sortItemsLowToHigh</span>
-                <span class="method-start">18085 ms</span>
+                <span class="method-start">18889 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectFifthItem</span>
-                <span class="method-start">18778 ms</span>
+                <span class="method-start">22201 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">switchToNewTabAndAddToCart</span>
-                <span class="method-start">22256 ms</span>
+                <span class="method-start">25612 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyItemInCart</span>
-                <span class="method-start">25642 ms</span>
+                <span class="method-start">28426 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">removeItemFromCart</span>
-                <span class="method-start">32555 ms</span>
+                <span class="method-start">29006 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">switchBackToParentTab</span>
-                <span class="method-start">32790 ms</span>
+                <span class="method-start">29674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32811 ms</span>
+                <span class="method-start">29685 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setUp(edge)</span>
-                <span class="method-start">33286 ms</span>
+                <span class="method-start">30049 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">searchForProduct</span>
-                <span class="method-start">36996 ms</span>
+                <span class="method-start">33666 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">applyPriceFilter</span>
-                <span class="method-start">40051 ms</span>
+                <span class="method-start">36305 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">applyStarRatingFilter</span>
-                <span class="method-start">48617 ms</span>
+                <span class="method-start">44629 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sortItemsLowToHigh</span>
-                <span class="method-start">51872 ms</span>
+                <span class="method-start">47810 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectFifthItem</span>
-                <span class="method-start">52848 ms</span>
+                <span class="method-start">50987 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">switchToNewTabAndAddToCart</span>
-                <span class="method-start">56075 ms</span>
+                <span class="method-start">54214 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyItemInCart</span>
-                <span class="method-start">58507 ms</span>
+                <span class="method-start">55869 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">removeItemFromCart</span>
-                <span class="method-start">59089 ms</span>
+                <span class="method-start">56440 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">switchBackToParentTab</span>
-                <span class="method-start">59275 ms</span>
+                <span class="method-start">56674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59282 ms</span>
+                <span class="method-start">56692 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
